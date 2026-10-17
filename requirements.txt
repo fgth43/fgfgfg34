@@ -1,2 +1,1 @@
-git commit --allow-empty -m "Fix start command for aiogram"
-git push
+
