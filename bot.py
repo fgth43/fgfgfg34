@@ -68,7 +68,8 @@ async def start(msg: types.Message):
     )
 
     try:
-        photo = FSInputFile("photo.jpg.jpg.jpg")
+      photo = FSInputFile("photo.jpg")
+
 
         await msg.answer_photo(
             photo=photo,
